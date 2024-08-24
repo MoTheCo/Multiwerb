@@ -1,0 +1,7 @@
+.company-page {
+    display: none;
+}
+
+.company-page.active {
+    display: block;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiwerb aus eins mach viele</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Multiwerb</h1>
+        <div class="form-group">
+            <label for="upload">Upload your Word file</label>
+            <input type="file" id="upload" class="form-control-file" />
+        </div>
+        <div id="company-forms">
+            <div class="company-form" id="company-form-1">
+                <h4>Firma 1</h4>
+                <div class="form-group">
+                    <label for="company1">Firma</label>
+                    <input type="text" class="form-control" id="company1" name="company1">
+                </div>
+                <div class="form-group">
+                    <label for="contact1">Kontakt Person</label>
+                    <input type="text" class="form-control" id="contact1" name="contact1">
+                </div>
+                <div class="form-group">
+                    <label for="street1">Straße</label>
+                    <input type="text" class="form-control" id="street1" name="street1">
+                </div>
+                <div class="form-group">
+                    <label for="houseNumber1">Hausnummer</label>
+                    <input type="text" class="form-control" id="houseNumber1" name="houseNumber1">
+                </div>
+                <div class="form-group">
+                    <label for="zip1">PLZ</label>
+                    <input type="text" class="form-control" id="zip1" name="zip1">
+                </div>
+                <div class="form-group">
+                    <label for="city1">Stadt</label>
+                    <input type="text" class="form-control" id="city1" name="city1">
+                </div>
+            </div>
+        </div>
+        <button type="button" id="add-company" class="btn btn-secondary mb-3">Neue Firma hinzufügen</button>
+        <div class="navigation-buttons">
+            <button type="button" id="prev-page" class="btn btn-secondary mb-3" style="display:none;">Zurück</button>
+            <button type="button" id="next-page" class="btn btn-secondary mb-3" style="display:none;">Vor</button>
+        </div>
+        <button type="submit" id="process" class="btn btn-primary">Bewerbung/en Generieren</button>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
