@@ -6,7 +6,7 @@
 
 ## Funktionen
 
-- **Datei-Upload**: Laden Sie eine Word-Dokumentvorlage hoch.
+- **Datei-Upload**: Laden Sie die Word-Dokumentvorlage "sample" hoch.
 - **Mehrere Firmen**: Fügen Sie beliebig viele Firmeninformationen hinzu.
 - **Navigation**: Blättern Sie durch die eingegebenen Firmendaten.
 - **Dokumentgenerierung**: Erstellen Sie für jede Firma ein angepasstes Word-Dokument.
