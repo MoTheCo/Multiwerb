@@ -43,7 +43,7 @@
 
 ## Lizenz
 
-Dieses Projekt steht unter der GNU General Public License v3.0 Lizenz. Weitere Informationen finden Sie in der `LICENSE`-Datei.
+Dieses Projekt steht unter der MIT Lizenz. Weitere Informationen finden Sie in der `LICENSE`-Datei.
 
 ## Kontakt
 
